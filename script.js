@@ -1,4 +1,7 @@
 function search() {
+    let res = document.querySelector('.res')
+    res.innerHTML = ' '
+
     let rep = document.getElementById('rep')
     let repTxt = rep.value
     let url = `https://api.github.com/search/repositories?q=${repTxt}`
@@ -35,7 +38,8 @@ function search() {
                 div.appendChild(pDescription)
                 div.appendChild(pStars)
                 div.appendChild(pLang)
-                res.appendChild(div)         
+                res.appendChild(div)       
+                
             }
         })
     }
