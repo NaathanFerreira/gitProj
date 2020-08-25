@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.conteudo {
+    margin: 0px;
+    background-color: rgb(54, 52, 51);
+}
+
+.cabecalho {
+    display: flex;
+    height: 65px;
+    width: 100%;
+    background-color: skyblue;
+    justify-content: center;
+    align-items: center;
+}
+
+header button,
+header input {
+    margin: 10px;
+    height: 50%;
+}
+
+.reps {
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 700px;
+    height: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
+}
+
+.res {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+#qtd {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
